@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 3rem;
+}
+
+header {
+    background: #22374abd;
+    padding: 2rem 0 1rem;
+    
+}
+video {
+    margin: center;
+    padding: center;
+}
+
+.card {
+    background: rgb(88, 223, 223);
+    padding: 1.5rem 20rem;
+    border-radius: 10.25rem;
+    
+
+    margin-bottom: 2rem;
+
+    color: var(--dark-blue);
+    display: block;
+    text-align: center;
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+}
+
+.card h4 {
+    background: rgba(58, 35, 189, 0.623);
+    padding: 1.5rem 2rem ;
+    border-radius: 0.25rem;
+    font-size: center;
+    font-size: 3rem;
+    margin-left: 2;
+    float:left
+                
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+                
+    color: var(--dark-blue);
+    padding-left: 6rem ;
+}
+
+.card h3 {
+    background: rgba(58, 35, 189, 0.623);
+    padding: 1.5rem 2rem ;
+    border-radius: 0.25rem;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    #organi {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+}
+
+
+/*#organi h4 {
+    color:white;
+    margin-top: 10;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+#organi h3 {
+    color:white;
+    margin-top: 10;
+    margin-left: 10;
+    margin-right: 10;
+}
+box-sizing: border-box;
+padding: 0;
+margin: 0;*/
+
+footer{
+    text-align: center;
+    
+    margin: 1rem;
+    
+    
+    background-color: #22374abd;
+}
+
+footer section{
+    margin: 12rem;
+    
+    
+    
+    
+}
+
+p {
+    display: inline;
+    font-weight: 100;
+    height: 400px;
+    width: 190px;
+
+
+    
+}
+
+h1 { height: 400px;
+    width: 190px;
+
+}
+
+h2 {
+    
+    background-color: green;
+
+
+}
+
