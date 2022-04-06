@@ -6,7 +6,12 @@
     font-size: 3rem;
 }
 
-he
+header ul li {
+    
+    position: absolute;
+    list-style: none;
+
+}
 
 header {
     background: #22374abd;
